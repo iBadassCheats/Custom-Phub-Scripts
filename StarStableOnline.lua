@@ -15,4 +15,4 @@ j_additem() -- j_additem(6764 / id, 99 / amount) // bool
 
 -- special:
 j_setstarcoins() -- j_setstarcoins(6764, "server side / temp side") // bool
-j_startunban() -- j_startunban("game path", username, password) // bool
+j_startunban() -- j_startunban("game path", "email", "password") // bool
