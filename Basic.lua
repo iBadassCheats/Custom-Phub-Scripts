@@ -10,5 +10,5 @@ c_sleep() -- c_sleep(5) // void
 c_openprocess() -- return c_openprocess("process") // string
 
 c_writememory() -- writememory("addr", "type", "value") // bool
-c_writememory() -- return readmemory("addr", "type") // object
+c_readmemory() -- return readmemory("addr", "type") // object
 c_writehook() -- return c_writehook("addr", "bytes", "asm", "name") // bool
