@@ -1,3 +1,7 @@
+debug() -- return debug("text") // string
+log() -- return log("text") // string
+print() -- return print("text") // string
+
 c_vector2() -- everythings with vector2 // vector
 c_vector3() -- everythings with vector3 // vector
 
