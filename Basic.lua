@@ -11,4 +11,4 @@ c_openproc() -- return c_openproc("process") // string
 
 c_writeproc() -- c_writeproc("addr", "type", "value") // bool
 c_readproc() -- return c_readproc("addr", "type") // object
-c_writehook() -- return c_writehook("addr", "bytes", "asm", "name") // bool
+c_hookproc() -- return c_hookproc("addr", "bytes", "asm", "name") // bool
