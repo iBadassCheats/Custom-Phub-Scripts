@@ -7,8 +7,8 @@ c_vector3() -- everythings with vector3 // vector
 
 c_getrankt() -- return c_getrankt() // string
 c_sleep() -- c_sleep(5) // void
-c_openprocess() -- return c_openprocess("process") // string
+c_openproc() -- return c_openproc("process") // string
 
-c_writememory() -- writememory("addr", "type", "value") // bool
-c_readmemory() -- return readmemory("addr", "type") // object
+c_writeproc() -- c_writeproc("addr", "type", "value") // bool
+c_readproc() -- return c_readproc("addr", "type") // object
 c_writehook() -- return c_writehook("addr", "bytes", "asm", "name") // bool
