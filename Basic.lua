@@ -12,3 +12,4 @@ c_openproc() -- return c_openproc("process") // string
 c_writeproc() -- c_writeproc("addr", "type", "value") // bool
 c_readproc() -- return c_readproc("addr", "type") // object
 c_hookproc() -- return c_hookproc("addr", "bytes", "asm", "name") // bool
+c_aobproc() -- return c_aobproc(0x000000000, 0x7ffffffff "bytes", 0x0) // string
