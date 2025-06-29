@@ -11,7 +11,7 @@ function thread()
 end
 
 function main()
-  c_openproc ("SSO")
+  c_openproc ("SSOClient")
   
   j_doublespeed (DoubleSpeed)
   j_nofall (NoFall)
